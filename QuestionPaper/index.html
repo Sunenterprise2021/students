@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4th Internal Assessment Routine </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- <style> -->
+    <!-- .carousel-item{height: 40rem;} -->
+    <!-- .carousel-inner{height:20rem;} -->
+    <!-- developed by Sagar Nandy -->
+ <!-- </style> -->
+
+</head>
+<body onload="Sagar()">
+  <div id="loading"></div>
+  
+
+  <div  class="container" style="background-color: rgb(5, 18, 77);">
+
+      <nav style="background-color: rgb(5, 18, 77);" class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid rounded">
+          <a class="navbar-brand fst-italic text-light sticky-top" href="https://students.nandysagar.in"><strong style="font-size: 30px;">Math</strong><strong style="font-size: 30px;" class="text-warning">Hub</strong> </a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="font-size: 22px;"  type="button" class="btn btn-outline-light me-2" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a style="font-size: 22px;"  class="btn btn-outline-warning dropdown-toggle me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Wbbse Books
+                </a>
+                <ul style="font-size: 22px;"  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://wbbsebooks.com/wbbse-books-for-class-4-pdf/">Class-4</a></li>
+                  <li><a class="dropdown-item" href="https://wbbsebooks.com/wbbse-books-for-class-5-pdf/">Class-5</a></li>
+                  <li><a class="dropdown-item" href="https://wbbsebooks.com/wbbse-books-for-class-8-pdf/">Class-8</a></li>
+                  <li><a class="dropdown-item" href="https://wbbsebooks.com/wbbse-books-for-class-9-pdf/">Class-9</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Loading</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="font-size: 22px;"  class="btn btn-outline-light dropdown-toggle me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Study Matrials
+                </a>
+                <ul style="font-size: 22px;"  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Class-4</a></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Class-5</a></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Class-8</a></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Class-9</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Activity Tasks</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="font-size: 22px;"  class="btn btn-outline-warning dropdown-toggle me-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Syllabus
+                </a>
+                <ul style="font-size: 22px;"  class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">1<sup>st</sup>Internal Assessemnt </a></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">2<sup>nd</sup>Internal Assessemnt</a></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">3<sup>rd</sup>Internal Assessemnt</a></li>
+                  <li><a style="background-color: rgb(243, 241, 124);" class="dropdown-item" href="Syllabus/4IAE.html">4<sup>th</sup>Internal Assessemnt</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://students.nandysagar.in/error/">Nothing is here.</a></li>
+                </ul>
+              </li>
+
+<li class="nav-item ">
+  <!-- Button trigger modal -->
+<button style="font-size: 22px;" type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Educator Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div style="background-color: rgb(75, 245, 222);" class="modal-header">
+        <h5 style="font-size: 22px;"  class="modal-title fs-5" id="exampleModalLabel">Educator Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3><b style="color: rgb(7, 27, 83);">Educator Name</b> : <span class="text-danger"> Sagar Nandy</span></h3>
+        <h3><b style="color: rgb(7, 27, 83);">Educator's Qualification</b> : <span class="text-danger"> B.Sc Honours in Mathematics</span></h3>
+       <h3><b style="color: rgb(7, 27, 83);">Phone Number</b> : <span class="text-danger">+916295980525</span></h3>
+        <h3><b style="color: rgb(7, 27, 83);">Whatsapp Number</b> : <span class="text-danger">+916295980525</span></h3>
+        <h3><b style="color: rgb(7, 27, 83);">Email Id</b> : <span class="text-danger">mathhub.sagar@gmail.com</span></h3>
+      </div>
+      <div style="background-color: rgb(75, 245, 222);" class="modal-footer ">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div style="background-color: rgb(5, 18, 77);" class="text-center  my-1 border">
+        <h2 class="text-light animate__animated animate__tada animate__infinity"><img src="Images/star.gif" alt="">
+          Math<span class="text-warning" style="font-size: 30px;">Hub</span>  Students Portal <img src="Images/star.gif" alt=""> </h2>
+      </div>
+     <div class="container text-light rounded" style="background-color: rgb(5, 18, 77);">
+
+ <marquee behavior="scroll" direction="left" style="color: rgb(252, 249, 249);">
+  <img src="Images/new1.gif" alt=""><b class="text-warning"> Welcome to MathHub Students Portal || </b><img src="Images/campaign.png" alt=""><strong style="color: rgb(9, 255, 0);"> Students are requested to check our websites to get regular updates ||</strong> </marquee>
+      </div>
+      <div class="container  my-3">
+        <div class="row">
+          <div class="col">
+           <span class="material-icons">
+           <!-- <img src="Images/new1.gif" alt=""> -->
+             
+<button class="btn btn-danger fs-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">LATEST NEWS & NOTICES</button></span>
+
+<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+<div style="background-color: rgb(245, 22, 22);" class="offcanvas-header">
+ <h5 id="offcanvasTopLabel"><b class="text-light">LATEST NEWS & NOTICES</b></h5>
+ <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+ <span class="material-icons">
+   <img src="Images/new_icon.gif" alt=""> <b style="color: rgb(19, 12, 117);">1)  4<sup>th</sup> Internal Asscessment Examination will be held on 03.10.2021 to 05.10.2021 in blended mode.</b>
+ </span> <br>
+ <span class="material-icons">
+   <img src="Images/new_icon.gif" alt=""> <b style="color: rgb(19, 12, 117);">2) First practice test of SOF-IMO will be held on 06.10.2021 in online mode.</b>
+ </span>
+</div>
+</div>
+</div>
+<div class="col">
+<!-- Button trigger modal -->
+<span class="material-icons">
+<!-- <img src="Images/new1.gif" alt=""> -->
+ 
+<button type="button" class="btn btn-success fs-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+ROUTINE FOR THE CLASSES - 4,5,8,9
+</button>
+</span>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+ <div class="modal-content">
+   <div style="background-color: darkblue;" class="modal-header">
+     <h5 class="modal-title text-light" id="staticBackdropLabel">Routine For the Classes - 4,5,8,9 <br> To find your class routine please scroll.</h5>
+     <!-- <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button> -->
+   </div>
+   <div class="modal-body">
+     <h3 class="text-danger"><b> Routine For Class - 4 (Sagnik & Sayan) :- </b></h3>
+     <h5><b style="color: darkgreen;">1) Monday (4:30 p.m. to 6:30 p.m.) :- </b><b>Patabahar,Butterfly,Amar Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">2) Wednesday (4:30 p.m. to 6:30 p.m.) :- </b><b>Bhasapath,Wings,Amar Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">3) Friday (8:00 a.m. to 10:00 a.m.) :- </b><b>Patabahar,Butterfly,Amar Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">4) Sunday (8:00 a.m. to 10:00 a.m.) :- </b><b>Bhasapath,Wings,Amar Gonit</b> </h5>
+     <!-- <h5 class="modal-title text-light" id="staticBackdropLabel">Routine For the Classes - 4,5,8,9</h5> -->
+     <!-- <button type="button" class="btn-close text-light" data-bs-dismiss="modal" aria-label="Close"></button> -->
+   <!-- </div> -->
+   <!-- <div class="modal-body"> -->
+     <h3 class="text-danger"><b> Routine For Class - 4 (Bumba) :- </b></h3>
+     <h5><b style="color: darkgreen;">1) Tuesday (8:30 a.m. to 10:30 a.m.) :- </b><b>Bengali,History,Mojar Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">2) Thrusday (8:30 a.m. to 10:30 a.m.) :- </b><b>Geography,Science Book,Mental Math</b> </h5>
+     <h5><b style="color: darkgreen;">3) Friday (8:30 a.m. to 10:30 a.m.) :- </b><b>Bengali,History,Mojar Gonit,Reasoning</b> </h5>
+     <h5><b style="color: darkgreen;">4) Sunday (8:30 a.m. to 10:30 a.m.) :- </b><b>Geography,Science Book,Mental Math</b> </h5>
+     <h3 class="text-danger"><b> Routine For Class - 5 :- </b></h3>
+     <h5><b style="color: darkgreen;">1) Tuesday (6:30 a.m. to 08:30 a.m.) :- </b><b>Bengali,Poribesh O Bigyan,Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">2) Thrusday (6:30 a.m. to 08:30 a.m.) :- </b><b>Bhasapath,Poribesh O Bigyan,Gonit</b> </h5>
+     <h5><b style="color: darkgreen;">3) Saturday (6:30 a.m. to 08:30 a.m.) :- </b><b>Bengali,Poribesh O Bigyan,Gonit</b> </h5>
+     <h5 ><b style="color:rgb(20, 10, 107);"> And So On... </b></h5>
+     <h3 class="text-danger"><b> Routine For Class - 8 :- </b></h3>
+     <h5><b style="color: darkgreen;">1) Tuesday (6:30 a.m. to 08:30 a.m.) :- </b><b>Mathematics,Physical Science</b> </h5>
+     <h5><b style="color: darkgreen;">2) Thrusday (6:30 a.m. to 08:30 a.m.) :- </b><b>Mathematics,Life Science</b> </h5>
+     <h5><b style="color: darkgreen;">3) Saturday (6:30 a.m. to 08:30 a.m.) :- </b><b>Mathematics,Physical Science</b> </h5>
+     <h5><b style="color:rgb(20, 10, 107);"> And So On... </b></h5>
+     <h3 class="text-danger"><b> Routine For Class - 9:- </b></h3>
+     <h5><b style="color: darkgreen;">1) Tuesday (6:30 p.m. to 08:30 p.m.) :- </b><b>Mathematics,Physical Science</b> </h5>
+     <h5><b style="color: darkgreen;">2) Thrusday (6:30 p.m. to 08:30 p.m.) :- </b><b>Mathematics,Life Science</b> </h5>
+     <h5><b style="color: darkgreen;">3) Sunday (6:30 p.m. to 08:30 p.m.) :- </b><b>Mathematics,Physical Science</b> </h5>
+     <h5><b style="color:rgb(20, 10, 107);"> And So On... </b></h5>
+     <!-- <h5><b style="color: darkgreen;">4) Sunday (8:30 a.m. to 10:30 a.m.) :- </b><b>Geography,Science Book,Mental Math</b> </h5> -->
+   </div>
+   <h5 class="text-danger"><b><span class="material-icons">
+     <img src="Images/new1.gif" alt=""> Extra Time For Only IMO Candidates Saturday (4:00 p.m. to 5:00 p.m.)</span> </b></h5>
+   <div style="background-color: darkblue;" class="modal-footer">
+     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+     <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+   </div>
+ </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="container pt-2">
+  <div class="row"> 
+    <div class="col">
+      <a style="font-size: 22px;color: rgb(186, 233, 217);background-color: rgb(201, 47, 157);"  class="btn fs-4  me-2" href="Syllabus/" role="button"><img src="Images/new1.gif" alt="">
+        Syllabus for 4 <sup>th</sup> Internal Assessment Examination
+      </a>
+
+    </div>
+  </div>
+</div>
+      <div style="background-color:rgb(5, 18, 77)" class="container" >
+        <h3 style="color: aqua;" class="text-center">V-BENG-4-2021</h3> <hr style="color: aqua;">
+       <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner ">
+            <div class="carousel-item active">hhhhuuhhff5fftto
+
+
+              <img src="Images/1.png" class="d-block w-100 " alt="...">
+
+            </div>
+            <div class="carousel-item ">
+              <img src="Images/mstutd.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/mstud3.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/mstud4.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/mstud5.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/mstud6.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/mstud2.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+            <div class="carousel-item">
+              <img src="Images/2.png" class="d-block w-100" alt="...">
+
+            </div>
+          </div>
+
+       </div>
+      </div>-->
+      <!-- Questions paper -->
+       <!-- <div style="background-color: rgb(5, 18, 77);"class="container "> -->
+         <!-- notices -->
+        
+<!-- notice ends -->
+<iframe src="https://drive.google.com/file/d/1i76UCo8q31t7kw999a7sy2MBVzuaIF6V/preview" width="480" height="700" allow="autoplay"></iframe>
+         
+
+   
+
+       <footer class="main-footer" > <hr>
+        <div class="row">
+            <div class="col-sm my-2  border">
+
+                <p class="text-center  text-warning">
+                    © 2021 MathHub - All rights reserved <br>Designed & Developed by : <span style="color:rgb(9, 255,0);"> Sagar Nandy </span>
+                    </p>
+                  </div>
+                  </div>
+              </footer>
+        </div>
+       </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  var preloader = document.getElementById('loading');
+ function Sagar(){
+   preloader.style.display='none';
+ }
+
+</script>
+<script>
+
+  $(document).ready(function(){ $('#OnLoad').modal('show');
+  
+}) 
+</script>
+</body>
+</html>
