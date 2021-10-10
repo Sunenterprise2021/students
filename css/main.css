@@ -24,7 +24,7 @@ body{
 .blink 
 	{        
 		 animation: blinker 1.5s linear infinite;       
-		   color: #ffffff;  
+		   color: #8b0c0c;  
 			font-size: 30x;     
 				font-weight: bold;     
 					font-family: sans-serif;       }  
