@@ -188,6 +188,10 @@ background-color: rgb(207, 247, 250);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+.notice:hover{
+  background-color: #dd2121;
+  color: #f0f357;
+}
   .blink 
 	{        
 		 animation: blinker 1.5s linear infinite;       
