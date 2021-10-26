@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/css/sagar.css">
    <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
 </head>
 <body onload="Sagar()">
@@ -68,7 +69,7 @@
           </div>
             <div class="row justify-content-around pt-2">
             <div class="col-6">
-                <a  href=" " class="btn button2 "><img src="/Images/task.png" width="25" height="27" alt="bill">  Model Activity Task </a>
+                <a onclick="sgalt()" class="btn button2 "><img src="/Images/task.png" width="25" height="27" alt="bill">  Model Activity Task </a>
             </div>
             <div class="col-6"><a  href="https://docs.google.com/forms/d/e/1FAIpQLScosEeRd_jmd_vcKe6alwaUTL0v-zUpOd9k5Co24bKopE3oDg/viewform " type="button" class="btn button3"><img src="/Images/confirm.png" alt="note" width="30" height="32"> Confirm your payment</a></div>
            
@@ -77,18 +78,18 @@
           <div class="row justify-content-around pt-2">
            
             <div class="col-6">
-                <a  href=" " type="button" class="btn payment"><img src="/Images/routine.png" width="25" height="28" alt="routine"> Download Class Routine</a>
+                <a  onclick="sgalt()" type="button" class="btn payment"><img src="/Images/routine.png" width="25" height="28" alt="routine"> Download Class Routine</a>
             </div>
             <div class="col-6">
-                <a  href=" " type="button" class="btn button2"><img src="/Images/bill.png" alt="Activity task" width="25" height="28" > Download Payment e-Receipt</a>
+                <a onclick="sgalt()"type="button" class="btn button2"><img src="/Images/bill.png" alt="Activity task" width="25" height="28" > Download Payment e-Receipt</a>
             </div>
           </div>
           <div class="row justify-content-around pt-2">
             <div class="col-6">
-              <a  href=" " type="button" class="btn button"><img src="/Images/note.png" alt="note" width="30" height="32">Download Class Notes</a>
+              <a  onclick="sgalt()" type="button" class="btn button"><img src="/Images/note.png" alt="note" width="30" height="32">Download Class Notes</a>
           </div>
             
-            <div class="col-6"><a  href=" " type="button" class="btn button"><img src="/Images/oldqs.png" alt="note" width="30" height="32">Download Old Question Paper</a></div>
+            <div class="col-6"><a onclick="sgalt()" type="button" class="btn button"><img src="/Images/oldqs.png" alt="note" width="30" height="32">Download Old Question Paper</a></div>
           </div>
         </div>
           <div class="container pt-3"><a href="Home/" class="btn nextpage "><img src="/Images/right-arrow.png" alt="next" width="30" height="32"> Go To Next Page</a></div>
@@ -147,6 +148,18 @@
        }
       
       </script>
+    <!-- error pop up -->
+    <script type="text/javascript">
+        function sgalt(){
+          swal(
+  'Oops...',
+  'Something went wrong! ',
+  
+  'error'
+)
+        }
+      </script>
+    <!-- end error pop up-->
      <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
