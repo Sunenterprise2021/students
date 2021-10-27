@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title> Download Class Notes</title>
+       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/sagar.css">
+   <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<body onload="Sagar()">
+    <div id="loading"></div>
+
+
+    <div class="row notice  " style="background-color: rgb(112, 163, 16);">
+        <marquee class="marquee" onmouseover="this.stop()" onmouseout="this.start()"> 
+
+          <a class="text-white" href="https://students.nandysagar.in" ><img src="/Images/Siren.gif" alt="" width="40" height="42"><strong class=" notice" style="font-family: 'Times New Roman';"> Students and guardians are requested to our site in regular basis to get any new updates </strong>
+          </a> 
+          <span style="color:#fff;">&nbsp;||&nbsp;&nbsp;</span>
+ 
+</marquee>  
+</div>
+
+    <div class="container cnote_container  ">
+        <div class="card pt-1 ">
+            <div class="card-header text-center border border-danger" style="background-color: aquamarine;" ><b style=" background-color: rgb(160, 243, 243);""><img src="/Images/moving star.gif" alt="Star" width="30" height="32"> Download Class Notes <img src="/Images/moving star.gif" alt="Star" width="30" height="32"></b> </div>
+          </div>
+                <!-- Nav tabs -->
+<ul class="nav nav-tabs nav-pills nav-justified pt-1">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link " data-toggle="tab" href="#class4">Class-4</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#class5">Class-5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#class8">Class-8</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#class9">Class-9</a>
+      </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content py-2">
+    <div class="tab-pane container active" id="home">
+        <div class="card border border-primary rounded">
+            <div class="card-header bg-primary text-white" style="font-family: Arial;"> <img src="/Images/Siren.gif" alt="note" width="30" height="32"> Notices <img src="/Images/Siren.gif" alt="note" width="30" height="32">
+            </div>
+            <div class="card-body">
+                <marquee scrolldelay="250" onmouseover="stop()" onmouseout="start()" direction="up" height="150">
+                 <strong style="color: rgb(77, 38, 114);">
+                    ১) সকল নোটস এখানে আপ্লোড করা হবে। <br> <br>
+                    ২) নতুন আপডেট পেতে প্রত্যেকে  ওয়েবসাইটটি ‌প্রত্যহ চেক করূন। <br><br>
+
+                    ৩) ছাত্রছাত্রীরা নিজেদের ক্লাস অনুযায়ী বাটনে ক্লিক করে ক্লাস নোট ডাউনলোড করতে পারবে। <br> <br>
+                </strong>
+                </marquee>
+
+            </div>
+            
+          </div>
+</div>
+    <div class="tab-pane container" id="class4">
+        <img src="/Images/newicon.gif" width="35" height="37" alt="">
+        <a  href="/ClassNotes/পদ পরিবর্তন.pdf" type="button" class="btn button3"><img src="/Images/note.png" alt="note" width="30" height="32"> বাংলা ব্যাকরণ </a>
+    </div>
+    <div class="tab-pane container fade" id="class5"><img src="/Images/loading.gif" alt="note" width="80" height="82">  </div>
+    <div class="tab-pane container fade" id="class8"><img src="/Images/loading.gif" alt="note" width="80" height="82"> </div>
+    <div class="tab-pane container fade" id="class9"><img src="/Images/loading.gif" alt="note" width="80" height="82">  </div>
+  </div>
+    </div>
+     <center>  
+    <div class="container py-3 "><a href="https://students.nandysagar.in" class="btn nextpage "><img src="/Images/back 2.png" alt="next" width="30" height="32"> Back To Index Page </a></div></center>
+    <div class="footer pt-2">
+      © 2021,MathHub-A Online Learning Platform - All right reserved. <br>
+      Designed & Developed By : <span style="color: rgb(237, 252, 26);">Sagar Nandy</span>
+    </div>
+    <script>
+        var preloader = document.getElementById('loading');
+       function Sagar(){
+         preloader.style.display='none';
+       }
+      
+      </script>
+      <script type="text/javascript">
+        function sgalt(){
+          swal(
+  'Oops...',
+  'Something went wrong! ',
+  
+  'error'
+)
+        }
+      </script>
+     <!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
