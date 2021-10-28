@@ -195,13 +195,10 @@ background-color: rgb(207, 247, 250);
 .footer {
    background-color: #0d0b7e;
 padding: 10px;
-position:fixed;
+
   text-align: center;
   color: #0ff11b;
-  width: 100%;
-  
-  bottom: 0;
-  left: 0;
+ 
 }
 .back{
   text-align: center;
