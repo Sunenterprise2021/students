@@ -1,4 +1,4 @@
-const url = '/Model Activity Task/MAT-Class-4-p-7.pdf';
+const url = '/Model Activity Task/MAT-Class-4-P-7.pdf';
 
 let pdfDoc = null,
   pageNum = 1,
