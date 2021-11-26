@@ -116,22 +116,22 @@ background-color: rgb(207, 247, 250);
 }
 
 .button2 {
-    padding: 7px 10px;
+   /* padding: 7px 10px; */
     font-size: 24px;
     text-align: center;
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #ee58f3;
+    background-color: #960e9b;
     border: none;
-    border-radius: 20px;
-    margin: 4px 2px;
-    box-shadow: 0 9px rgb(197, 199, 199);
+    border-radius: 28px;
+    /* margin: 4px 2px; */
+    /* box-shadow: 0 9px rgb(197, 199, 199); */
     
   }
   
   .button2:hover {
-      background-color: #d80ec7;
+     background-color: #089608;
       color:#fff;
   }
   
