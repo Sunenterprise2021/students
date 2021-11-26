@@ -196,7 +196,7 @@
             <!-- <th scope="row">03.10.2021</th> -->
             
             <td>Bengali</td>
-            <td>  <a  onclick="sgalt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
+            <td>  <a  onclick="cmplt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
             <!-- <td>@mdo</td> -->
           </tr>
           <tr>
@@ -208,7 +208,7 @@
           <tr>
           
             <td>Mathematics</td>
-            <td><a onclick="sgalt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
+            <td><a onclick="cmplt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
             <!-- <td colspan="2">Mathematics</td> -->
             <!-- <td>@twitter</td> -->
            
@@ -216,7 +216,7 @@
           <tr>
              
               <td>Poribesh o Bigyan</td>
-              <td> <a onclick="sgalt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
+              <td> <a onclick="cmplt()"   href=" " class="btn button2 "><img src="/Images/download.png" width="25" height="27" alt="bill">  Download</a></td>
           </tr>
         </tbody>
       </table>
@@ -348,6 +348,15 @@
 )
         }
       </script>
+                 <script type="text/javascript">
+        function cmplt(){
+          swal({
+  title: "Good job!",
+  text: "Model Activity Task-8 Completed Successfully.",
+  icon: "success",
+});
+        }
+      </script>
       <script>
         $(document).ready(function(){
             $("#activity-details").change(function(){
@@ -357,6 +366,7 @@
             })
         })
       </script>
+                
      <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
