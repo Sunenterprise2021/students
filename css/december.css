@@ -153,10 +153,13 @@ border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: flex;
+    border: 2px solid rgb(250, 3, 3);
+  font-weight: 600;
 }
 .sof:hover,.sof:active{
   background-color: rgb(117, 11, 167);
   color: rgb(218, 253, 179);
+    border: 2px solid rgb(8, 245, 28)
 }
 .mock{
   position: absolute;
