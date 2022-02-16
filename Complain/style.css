@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-primary{
+    background-color: rgb(20, 148, 148) !important;
+
+   margin-left: 25rem;
+   margin-right:25rem ;
+    transform: skew(-30deg);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.container-fluid{
+    background-image: url(/bg.jpg);
+    
+    background-repeat: no-repeat;
+    
+}
+
+.card{
+    margin-top: 2rem;
+}
+.card-header{
+    background-color: rgb(20, 148, 148) !important;
+    color: #fff;
+    font-weight: bold;
+}
+.card-body,label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.btn-primary{
+background-color: rgb(14, 136, 95);
+font-size: 18px;
+font-weight: bold;
+
+border: none;
+}
+.btn-primary:hover{
+    box-shadow: 0 8px 12px 0 rgb(70, 72, 73);
+    border: none;
+}
