@@ -48,11 +48,11 @@
         <div class="row">
           <div class="col-4">
             <div class=" mb-0 mt-2"> 
-              <h3 class="font-weight-bold"><i class="fa fa-tasks" style="font-size:20px"></i> List of month</h3><hr>
+              <h3 class="font-weight-bold"><i class="fa fa-tasks" style="font-size:18px"></i> List of month</h3><hr>
             </div>
             <div class="list-group " id="list-tab" role="tablist">
               <a class="list-group-item list-group-item-action  font-weight-bold" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">April</a>
-              <a class="list-group-item list-group-item-action font-weight-bold" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">March</a>
+              <a class="list-group-item list-group-item-action font-weight-bold" id="list-march-list" data-toggle="list" href="#list-march" role="tab" aria-controls="march">March</a>
               <a class="list-group-item list-group-item-action active font-weight-bold" id="list-feb-list" data-toggle="list" href="#list-feb" role="tab" aria-controls="feb">
                 <!-- <img src="new-post.gif" height="30" alt=""> -->
                  February </a>
@@ -65,11 +65,29 @@
                 <i class="fa fa-bullhorn" style="font-size:23px; color: red;"></i> Payment status</h3><hr>
             </div>
             <div class="tab-content" id="nav-tabContent">
-              <div class="tab-pane fade show active font-weight-bold " id="list-home" role="tabpanel" aria-labelledby="list-home-list">No data is available.</div>
-              <div class="tab-pane fade font-weight-bold" id="list-march" role="tabpanel" aria-labelledby="list-march-list">No data available.</div>
+              <div class="tab-pane fade show active font-weight-bold " id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                <h4 class="alert alert-danger font-weight-bold ">
+                  <i class="fa fa-warning"></i>  No data availabe.
+                  </h4>
+              </div>
+
+              <!-- march content start  -->
+              <div class="tab-pane fade font-weight-bold" id="list-march" role="tabpanel" aria-labelledby="list-march-list">
+                <h4 class="alert alert-danger font-weight-bold ">
+                  <i class="fa fa-warning"></i>  No data availabe.
+                  </h4>
+              </div>
+              <!-- march ends -->
 
               <!-- February content start -->
               <div class="tab-pane fade font-weight-bold" id="list-feb" role="tabpanel" aria-labelledby="list-feb-list">
+                <div class="card-header mb-2" style="background-color: #fff;">
+                  <h4 class="card-title font-weight-bold">
+                    <img src="https://students.nandysagar.in/Images/star.gif" >
+                    February 2022
+                    <img src="https://students.nandysagar.in/Images/star.gif" >
+                  </h4>
+                </div>
                 <div class="table-responsive ">
                 <table class="table table-bordered mb-3">
                   <thead >
@@ -223,7 +241,11 @@
 
               </div>
               <!-- february content ends  -->
-              <div class="tab-pane fade font-weight-bold" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Session expired.</div>
+              <div class="tab-pane fade font-weight-bold" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                <h4 class="alert alert-danger font-weight-bold ">
+                  <i class="fa fa-warning"></i> Session expired. No data is availabe for January.
+                  </h4>
+              </div>
             </div>
           </div>
         </div>
@@ -255,3 +277,4 @@
 <script src="main.js"></script>
 </body>
 </html>
+
