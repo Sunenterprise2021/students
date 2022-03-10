@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Hubballi', cursive;
+  font-size: 15px;
+}
+.card img{
+  border:none !important;
+  height: 6rem;
+  
+}
+.jumbotron{
+  background-image: url('./Hexagon.svg');
+  color: #fff;
+  margin-bottom: 0;
+}
+.card-footer{
+  /* background: #130466; */
+  background-image: linear-gradient(-90deg,rgb(30, 19, 80),rgb(33, 11, 75));
+    color: #f8f8f5;
+    padding: 8px;
+    line-height: 20px;
+    position:relative;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    bottom: 0;
+    left: 0;
+    
+    
+}
+.list-group{
+  width: 23vw;
+  
+  
+}
+main {
+  height:80vh;
+  width: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #e3e8f1 100%);
+ padding: 8px;
+ font-size: 17px;
+
+}
+a {
+  font-size: 17px;
+  cursor: pointer;
+}
+table{
+  background-color: #fff;
+  margin-bottom: 50px;
+  
+}
+td,th{
+  font-size: 17px;
+}
+hr{
+  color: rgb(14, 114, 92);
+  border: 2px solid ;
+}
+thead{
+  background-color: rgb(156, 8, 94);
+  color: #fff;
+}
