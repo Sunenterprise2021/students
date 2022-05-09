@@ -1,5 +1,5 @@
 
-window.open('errormessage.html');
+
 
 // disable right click 
 document.addEventListener("contextmenu", function(event){
